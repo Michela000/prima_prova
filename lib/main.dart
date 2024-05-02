@@ -6,3 +6,11 @@ void main() {
     const MyWidget(),
   );
 }
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+Widget build(BuildContext context) {
+    return MaterialApp(
+      home: SchermataIniziale(title: 'Hello Michela'),
+    );
+  }
+}
