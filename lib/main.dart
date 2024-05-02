@@ -3,6 +3,8 @@ import 'my_widget.dart';
 
 void main() {
   runApp(
-    const MyWidget(), const MyApplicazione(),
+=======
+    String Ciao;
+    const MyWidget(),
   );
 }
